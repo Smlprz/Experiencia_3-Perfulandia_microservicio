@@ -3,10 +3,9 @@
 
 Este repositorio contiene el desarrollo técnico del sistema basado en microservicios para la empresa Perfulandia SPA, como parte de la Evaluación Parcial 2 de la asignatura **Desarrollo Full Stack I**.
 
-## 📦 Descripción General del Proyecto
+## 📦 Proyecto Perfulandia
 
-> 📝 Explicar brevemente en qué consiste el sistema, qué problema resuelve y qué beneficios ofrece al reemplazar el antiguo sistema monolítico.
-
+> 📝El proyecto consiste en mejorar el sistema informatico de Perfulandia SPA ya que este era muy ineficiente y nosotros como equipo debemos mejorar este sistema mediante nuevos microservicios
 ## 🧩 Arquitectura de Microservicios
 
 > 📝 Describir cómo está estructurado el sistema en microservicios. Pueden incluir un diagrama y explicar brevemente la función de cada servicio.
@@ -15,12 +14,13 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 - `usuarioservice`: > 📝 Describir qué funcionalidades ofrece este microservicio.
 - `productoservice`: > 📝 Describir qué funcionalidades ofrece este microservicio.
-- `________service`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
-- `________service`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `Compraservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `Autenticacionservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `Carritoservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
 
 ## 🛠️ Tecnologías Utilizadas
 
-> 📝 Listar las tecnologías y herramientas utilizadas en el proyecto (Spring Boot, Maven, MySQL, Postman, GitHub, etc.).
+- 📝 Utilizamos las siguientes tecnologias: (Spring Boot, Maven, MySQL, Postman,Laragon  y GitHub).
 
 ## 🗄️ Configuración de Bases de Datos
 
@@ -37,29 +37,31 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 | Nombre                  | Rol en el proyecto         | Servicio principal trabajado |
 |-------------------------|----------------------------|------------------------------|
-| Vicente Oyarzún         | Backend - Usuarios         | authenticationservice        |
-| Tomás López             | Backend - Productos        | shoppingcartservice          |
-| Samuel Pérez            | Repositorio/Backend        | shoppingservice              |
+| Vicente Oyarzún         | Backend - Usuarios         | autenticacionservice         |
+| Tomás López             | Backend - Productos        | carritoservice               |
+| Samuel Pérez            | Repositorio/Backend        | compraservice                |
 
 
 ## 📂 Estructura del Repositorio
 
-> 📝 Explicar brevemente la organización de carpetas del repositorio (por ejemplo, cada carpeta corresponde a un microservicio separado con su propio `pom.xml`).
+- 📝 La organizacion del repositorio es mediante sus respectivas carpetas y en cada carpeta esta el correspondiente microservicio y el archivo README.md
 
 ```
 
 📦 perfulandia-microservices
 ├── usuarioservice
 ├── productoservice
-├── pedidoservice (Ejemplo)
-├── notificacionservice (Ejemplo)
+├── autenticacionservice
+├── carritoservice
+├── compraservice 
 └── README.md
 
 ```
 
 ## 👥 Colaboración en GitHub
 
-> 📝 Explicar cómo se organizó el trabajo en ramas (`master`, `pruebas`), frecuencia de commits y cómo se coordinaron como equipo.
+- 📝 El trabajo se organizó de la siguiente manera: cada integrante tenia su propio microservicio en el cual cada uno debe subir sus avances en sus branch para luego ver la pull request y agregarlo al Main
+
 
 ## 📈 Lecciones Aprendidas
 
