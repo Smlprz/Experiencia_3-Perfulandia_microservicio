@@ -14,5 +14,6 @@ public class Usuario {
     private long id;
     private String nombre;
     private String correo;
+    private String contrasena;
     private String rol; // ADMIN, GERENTE, Usuario
 }

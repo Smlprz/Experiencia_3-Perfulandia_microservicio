@@ -4,6 +4,7 @@ import com.perfulandia.usuarioservice.model.Usuario;
 import com.perfulandia.usuarioservice.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
 
+
 import java.util.List;
 
 @Service
