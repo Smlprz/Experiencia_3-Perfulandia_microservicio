@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 @ToString
 @Builder
 public class Compra {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,14 +20,14 @@ public class Compra {
 
     private double totalCompra;
 
-    private String metodoPago; // ejemplo: 'Transferencia', 'Tarjeta', etc.
+    private String metodoPago; 
 
     private boolean pagado;
 
     private boolean devuelto;
     private boolean reembolsado;
 
-    private String boletaElectronica; // podría ser un número o un UUID
+    private String boletaElectronica; 
 
     private LocalDateTime fechaCompra;
 }
