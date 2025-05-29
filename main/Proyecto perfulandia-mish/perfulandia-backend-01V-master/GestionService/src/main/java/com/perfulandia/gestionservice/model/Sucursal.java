@@ -8,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Usuario {
+public class Sucursal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String horario;
