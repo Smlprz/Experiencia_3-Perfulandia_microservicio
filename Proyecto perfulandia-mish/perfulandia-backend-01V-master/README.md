@@ -33,8 +33,6 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 ## 🧑‍💻 Integrantes del Equipo
 
-> 📝 Indicar nombre completo y rol de cada integrante del equipo.
-
 | Nombre                  | Rol en el proyecto         | Servicio principal trabajado |
 |-------------------------|----------------------------|------------------------------|
 | Vicente Oyarzún         | Backend - autenticacion         | autenticacionservice         |
