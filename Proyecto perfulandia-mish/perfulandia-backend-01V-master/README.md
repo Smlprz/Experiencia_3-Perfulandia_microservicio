@@ -5,7 +5,7 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 ## 📦 Descripción General del Proyecto
 
-> 📝 Explicar brevemente en qué consiste el sistema, qué problema resuelve y qué beneficios ofrece al reemplazar el antiguo sistema monolítico.
+> 📝 El proyecto consiste en la mejora del software utilizado en Perfulandia SPA ya que este no era eficiente y nosotros como grupo para mejorarlo creamos microservicios.
 
 ## 🧩 Arquitectura de Microservicios
 
@@ -13,10 +13,12 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 ### Microservicios Desarrollados
 
-- `usuarioservice`: > 📝 Describir qué funcionalidades ofrece este microservicio.
+- `usuarioservice`: > 📝 Este microservicio es 
 - `productoservice`: > 📝 Describir qué funcionalidades ofrece este microservicio.
-- `________service`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
-- `________service`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `compraservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `gestionservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `autenticacionservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `carritoservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -37,9 +39,10 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 | Nombre                  | Rol en el proyecto         | Servicio principal trabajado |
 |-------------------------|----------------------------|------------------------------|
-| Vicente Oyarzún         | Backend - Usuarios         | authenticationservice        |
-| Tomás López             | Backend - Productos        | shoppingcartservice          |
-| Samuel Pérez            | Repositorio/Backend        | shoppingservice              |
+| Vicente Oyarzún         | Backend - Usuarios         | autenticationservice        |
+| Tomás López             | Backend - Productos        | Carritoservice          |
+| Samuel Pérez            | Repositorio/Backend        | Compraservice              |
+| Gabriel altamirano     | Backend - Gestion           | Gestionservice                             |
 
 
 ## 📂 Estructura del Repositorio
@@ -51,8 +54,10 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 📦 perfulandia-microservices
 ├── usuarioservice
 ├── productoservice
-├── pedidoservice (Ejemplo)
-├── notificacionservice (Ejemplo)
+├── autenticationservice 
+├── compraservice 
+├── carritoservice 
+├── gestionservice 
 └── README.md
 
 ```
