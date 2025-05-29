@@ -2,7 +2,7 @@ package com.gestion.gestionservice.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-
+//...
 @Entity
 @Data
 @NoArgsConstructor
