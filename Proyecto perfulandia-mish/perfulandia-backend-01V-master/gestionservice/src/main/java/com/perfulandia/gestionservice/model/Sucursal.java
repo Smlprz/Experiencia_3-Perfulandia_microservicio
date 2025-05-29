@@ -1,17 +1,18 @@
-package com.gestion.gestionservice.model;
+package com.perfulandia.gestionservice.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-//...
+
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Usuario {
+public class Sucursal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String horario;
+    private long id;
+    private long horario;
     private String personal;
     private String proveedores;
 }
