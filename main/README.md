@@ -39,8 +39,8 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 | Nombre                  | Rol en el proyecto         | Servicio principal trabajado |
 |-------------------------|----------------------------|------------------------------|
-| Vicente Oyarzun         |  Backend - Usuarios)   | autenticacionservice               |
-| Tomás López             |  Backend - Productos)  | carritoservice              |
+| Vicente Oyarzun         |  Backend - Autenticacion   | autenticacionservice               |
+| Tomás López             |  Backend - Carrito  | carritoservice              |
 | Samuel Pérez            |  Backend - Repositorio - compras)  | Compraservice                |
 | Gabriel Altamirano      |  Backend - gestion                           |   gestionservice                           |
 
