@@ -24,16 +24,35 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 ## 🗄️ Configuración de Bases de Datos
 
-> 📝 Usamos para la base de datos Laragon MYSQL Indicar qué motor de base de datos usaron, cómo configuraron la conexión (`application.properties`), y qué tablas y campos definieron para cada microservicio.
+> 📝 En nuestro caso nosotros usamos el programa de base de datos Laragon para crear las base de datos necesarias para nuestros microservicios. Algunos de los microservicios comparten base de datos debido a sus usos (como el de autenticación y el de usuarios).
+Aqui esta el fragmento de el archivo properties de uno de los microservicios:
+
+spring.application.name=AutenticacionService
+
+server.port=8087
+
+spring.datasource.url=jdbc:mysql://localhost:3306/perfulandia_usuarios
+spring.datasource.username=root
+spring.datasource.password=
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+Este es el archivo properties del microservicio de usuarios y podemos ver que usa la base de datos de usuarios para revisar si el usuario es correcto aka si el usuario se encuentra dentro de los datos guardados en la tabla de usuarios.
+
+Este solo fue un ejemplo de las bases de datos que usaremos para los microservicios.
 
 ## 📮 Endpoints y Pruebas
 
-> 📝 Especificar los principales endpoints disponibles por microservicio (CRUD y llamadas entre servicios).  
-> Incluir capturas o descripciones de pruebas realizadas con Postman (mínimo 3 por servicio).
+![Microservicio_carrito](https://github.com/user-attachments/assets/e2044e9c-4699-458f-a5a0-c5891f7b7cc7)
+![Microservicio_Gestion](https://github.com/user-attachments/assets/4d75df5c-624e-4b8f-9036-abce47bbe510)
+![Microservicio_compra](https://github.com/user-attachments/assets/590f20b0-2bdd-4929-9010-1ef4708639a5)
 
 ## 🔁 CI/CD (Integración y Entrega Continua)
 
-> 📝 para la integracion usamos github
+> 📝 para la integracion usamos github 
+
 
 ## 🧑‍💻 Integrantes del Equipo
 
@@ -66,6 +85,6 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 ## 📈 Lecciones Aprendidas
 
-> 📝 Reflexionar brevemente sobre qué aprendieron durante el desarrollo del proyecto (técnico y en trabajo en equipo).
+> 📝En conclusión en este trabajo se vio como se puede solucionar el caso de perfumelandia para mejorar su sistema informático, se observaron los problemas en este sistema y se busco  solucionarlos cambiando el sistema de uno monolítico a uno de microservicios para que este funcione de manera más estable y rápida.
 
 ---
