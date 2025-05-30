@@ -13,12 +13,14 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 ### Microservicios Desarrollados
 - `carritoservice`: > 📝 Este servicio permite a los clientes navegar por el catálogo de perfumes y seleccionar productos para su compra, asegurando una experiencia fluida y eficiente.
 - `compraservice`: > 📝 Este servicio gestiona todo el proceso de compra, desde el pago hasta las devoluciones asegurando una experiencia fluida y segura para los clientes.
-- `gestionservice`: > 📝 Indicar el nombre y función del microservicio adicional implementado.
+- `gestionservice`: > 📝 Este servicio administra todos los aspectos operativos de cada sucursal de Perfumelandia, permitiendo una coordinación eficiente entre horarios, personal, proveedores y el reabastecimiento de productos.
 - `autenticacionservice`: > 📝 Se encarga de gestionar la identidad de los usuarios dentro de la plataforma, asegurando un acceso seguro y confiable a los recursos y funcionalidades de la empresa.
 
 ## 🛠️ Tecnologías Utilizadas
 
-> 📝 tecnologías y herramientas utilizadas en el proyecto Spring Boot, Maven, MySQL, Postman, GitHub,IntelliJ.
+> 📝 tecnologías y herramientas utilizadas en el proyecto:
+
+> Spring Boot, Maven, MySQL, Postman, GitHub,IntelliJ.
 
 ## 🗄️ Configuración de Bases de Datos
 
@@ -34,8 +36,6 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 > 📝 para la integracion usamos github
 
 ## 🧑‍💻 Integrantes del Equipo
-
-> 📝 Indicar nombre completo y rol de cada integrante del equipo.
 
 | Nombre                  | Rol en el proyecto         | Servicio principal trabajado |
 |-------------------------|----------------------------|------------------------------|
