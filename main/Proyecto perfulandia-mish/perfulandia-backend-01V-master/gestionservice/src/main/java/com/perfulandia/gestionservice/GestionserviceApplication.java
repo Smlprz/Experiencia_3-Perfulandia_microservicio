@@ -1,13 +1,13 @@
-package com.perfulandia.gestionservice.GestionService;
+package com.perfulandia.gestionservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GestionServiceApplication {
+public class GestionserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GestionServiceApplication.class, args);
+		SpringApplication.run(GestionserviceApplication.class, args);
 	}
 
 }

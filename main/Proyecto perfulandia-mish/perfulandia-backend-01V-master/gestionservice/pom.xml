@@ -8,10 +8,10 @@
 		<version>3.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.perfulandia.gestionservice</groupId>
-	<artifactId>GestionService</artifactId>
+	<groupId>com.gestion</groupId>
+	<artifactId>gestionservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>GestionService</name>
+	<name>gestionservice</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

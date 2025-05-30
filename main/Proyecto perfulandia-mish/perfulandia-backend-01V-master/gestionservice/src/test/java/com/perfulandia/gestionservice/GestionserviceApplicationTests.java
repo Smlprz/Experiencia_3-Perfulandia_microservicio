@@ -1,10 +1,10 @@
-package com.perfulandia.gestionservice.GestionService;
+package com.perfulandia.gestionservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GestionServiceApplicationTests {
+class GestionserviceApplicationTests {
 
 	@Test
 	void contextLoads() {
