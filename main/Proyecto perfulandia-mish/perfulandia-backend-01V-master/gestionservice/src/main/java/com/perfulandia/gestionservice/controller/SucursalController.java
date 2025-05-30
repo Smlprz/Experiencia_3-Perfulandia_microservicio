@@ -26,7 +26,7 @@ public class SucursalController {
         return service.guardar(sucursal);
     }
 
-    @GetMapping
+    @GetMapping("/{id}")
     public Sucursal buscar(@PathVariable long id){
         return service.buscar(id);
     }
