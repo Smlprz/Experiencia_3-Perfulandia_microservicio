@@ -12,7 +12,8 @@ public class Sucursal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private long horario;
+    private String horario;
+    private String ubicacion;
     private String personal;
     private String proveedores;
 }
