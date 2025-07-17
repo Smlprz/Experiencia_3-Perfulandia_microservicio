@@ -1,3 +1,4 @@
+package com.perfulandia.AutenticacionService.AutenticacionService.controller;
 import com.perfulandia.AutenticacionService.AutenticacionService.model.Usuario;
 import com.perfulandia.AutenticacionService.AutenticacionService.service.AutenticationService;
 import io.swagger.v3.oas.annotations.Operation;
